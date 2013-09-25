@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *overallDisplay;
 - (IBAction)setNumber:(id)sender;
 
+@property (copy,nonatomic) NSString *overallNumber;
 @end
